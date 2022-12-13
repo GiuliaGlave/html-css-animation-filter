@@ -72,6 +72,7 @@
     filter: grayscale(0.6) invert(50.6);
     transition: 3s;
 }
+
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
@@ -82,6 +83,7 @@
     border-radius: 30px;
     transform: scale(150%);
 }
+
 .ex-10-icon {
     font-size: 60px;
 }
