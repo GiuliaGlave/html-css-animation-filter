@@ -53,11 +53,25 @@
     scale: 50%;
 }
 
-
 .ex-6-img, .ex-7-img, .ex-8-img {
     width: 500px;
+    transition: 1s;
 }
 
+.ex-6-img:hover {
+    filter: saturate(0%);
+}
+
+.ex-7-img:hover {
+    filter: sepia(1) brightness(0.5);
+    transition: 4s;  
+}
+
+.ex-8-img:hover {
+    border-radius: 10%;
+    filter: grayscale(0.6) invert(50.6);
+    transition: 3s;
+}
 .ex-9-img {
     margin: 50px 100px;
     width: 400px;
